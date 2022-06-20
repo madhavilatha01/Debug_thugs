@@ -8,9 +8,10 @@
         <style>
             .b{ 
                 border:1px solid black;
-                margin-top:30px;
-                margin-right:850px;
+                margin-top:40px;
+                margin-right:650px;
                 margin-left:100px;
+                margin-bottom: 200px;
                 color:darkblue;
                 padding:20px;
                 padding-bottom: 10px;
@@ -22,33 +23,46 @@
                 border:1px solid cornflowerblue;
                 margin: 40px;
                 margin-left:30px;
-                margin-right:0px;
                 padding:20px;
                 background-color: white;
                 border-radius: 10px;
-                
             }
             .bg{
                 background-image:url('train.jpg');
-                margin-top:30px;
                 margin-top: 50px;
+                margin-right: 10px;
                 height:900px;
                 background-repeat: no-repeat,repeat;
                 background-size: cover;
                 display:inline-flex;
+                display: inline-block;
+            }
+            .k{
+                margin-top: 50px;
+                margin-right: 10px;
+                height:900px;
+                background-repeat: no-repeat,repeat;
+                background-size: cover;
+                display:inline-flex;
+                display: inline-block;
             }
         </style>
     </head>
 <body>
+    <div class="k">
     <div class="header">
         <div>
-            <div style="float: left">
+            <div style="float:left;padding:20px;">
                 <img src="irctcfir.jpg"
                 alt="logo of irctc"
                 height="101px" width="101px">
             </div>
-            <div>
-                <div class="header-top">&nbsp;&nbsp;&nbsp;&nbsp;
+            <div style="float:right">
+                <img src="irctclogo.jpg"
+                alt="logo of irctc"
+                height="101px" width="101px">
+            </div>
+                <br><center><div class="header-top">&nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="login.html">LOGIN</a>&nbsp;&nbsp;
                     <a href="https://www.irctc.co.in/nget/profile/user-registration">REGISTER</a>&nbsp;&nbsp;
                     <a href="https://www.operations.irctc.co.in/AgentInterface/loginHome.jsf">AGENT LOGIN</a>&nbsp;&nbsp;
@@ -65,10 +79,12 @@
                     <a href="hover.html">MEALS</a>&nbsp;&nbsp;
                     <a href="https://www.talkcharge.com/store/irctc">PROMOTIONS</a>&nbsp;&nbsp;
                     <a href="package.html">PREMIUM PARTNER</a>&nbsp;&nbsp;
-                    <a href="https://www.irctc.co.in/">MORE</a>&nbsp;&nbsp;
+                    <a href="https://www.irctc.co.in/">MORE</a>&nbsp;&nbsp;</center>
+        </div>
+    </div>
+    
 
-
-            <div class="bg" >&nbsp;
+            <div class="bg">&nbsp;
                 <div class="b">
                     <table><tr><td style="margin-left:100px;">                
                     <img src="75.jpg" height ="100px"width="150px"></td>
@@ -222,6 +238,7 @@
            </div>
         </div>
     </div>
+</div>
 </div><br><br><br>
     <script src="js/bootstrap.min.js"></script>
 </body>
